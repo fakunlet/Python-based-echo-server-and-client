@@ -14,6 +14,7 @@ In the first: python server.py
 In the second: python client.py 
 
 Example Output:
+
 Server output:
 TCP Echo Server started on localhost:8888
 Waiting for connections... (Press Ctrl+C to stop)
