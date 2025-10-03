@@ -16,13 +16,15 @@ In the second: python client.py
 Example Output:
 
 Server output:
+```
 TCP Echo Server started on localhost:8888
 Waiting for connections... (Press Ctrl+C to stop)
 Connection established with ('127.0.0.1', 54321)
 Received from ('127.0.0.1', 54321): Hello, Server!
 Echoed back to ('127.0.0.1', 54321): Hello, Server!
-
+```
 Client output:
+```
 Connecting to localhost:8888...
 Connected to server at localhost:8888
 Type messages to send to server (type 'quit' to exit)
@@ -30,6 +32,7 @@ Type messages to send to server (type 'quit' to exit)
 Server echoed: Hello, Server!
 > quit
 Disconnected from server
+```
 
 UDP Variation:
 For UDP, modify the code to use SOCK_DGRAM and adjust send/receive methods (no connect/accept).
